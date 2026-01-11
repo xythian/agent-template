@@ -37,7 +37,7 @@ draft → considering → accepted/rejected/paused
 
 ## Creating an RFC
 
-1. Copy `_template.md` to a new file with a descriptive name (e.g., `user-authentication.md`)
+1. Copy `_template.md` to a new file with the next number and a descriptive name (e.g., `001-user-authentication.md`)
 2. Fill out all sections of the template
 3. Set status to `draft`
 4. Create a branch (`docs/rfc-<name>`) and commit the RFC
@@ -47,12 +47,12 @@ draft → considering → accepted/rejected/paused
 
 ## File Naming
 
-Use lowercase with hyphens: `feature-name.md`
+Use sequential numbering with a short description: `NNN-feature-name.md`
 
 Examples:
-- `user-authentication.md`
-- `api-versioning.md`
-- `database-migration-strategy.md`
+- `001-user-authentication.md`
+- `002-api-versioning.md`
+- `003-database-migration-strategy.md`
 
 ## After Acceptance
 

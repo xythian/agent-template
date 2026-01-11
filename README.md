@@ -96,4 +96,10 @@ Agent-specific instructions:
 
 ## License
 
-<!-- Specify your license here -->
+<!--
+TEMPLATE NOTE: This template is licensed under Apache 2.0. When using this
+template for your own project, update LICENSE.md to reflect your project's
+licensing terms.
+-->
+
+This project is licensed under the Apache License, Version 2.0. See [LICENSE.md](LICENSE.md) for details.
