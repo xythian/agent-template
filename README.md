@@ -5,6 +5,10 @@ TEMPLATE INSTRUCTIONS (delete this block when customizing):
 This README serves as both documentation for the agent-template repository
 and as a template for projects created from it. Replace the content below
 with your project-specific information.
+
+When creating a new project from this template:
+- Update LICENSE.md for your project's licensing terms
+- Update .gitignore for your project's language/framework (the template includes common IDE ignores)
 -->
 
 Brief description of what this project does and why it exists.
