@@ -1,0 +1,99 @@
+# Project Name
+
+<!--
+TEMPLATE INSTRUCTIONS (delete this block when customizing):
+This README serves as both documentation for the agent-template repository
+and as a template for projects created from it. Replace the content below
+with your project-specific information.
+-->
+
+Brief description of what this project does and why it exists.
+
+## Getting Started
+
+### Prerequisites
+
+List any prerequisites needed to work with this project.
+
+### Setup
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd <project-name>
+
+# Run setup script if available
+./scripts/setup
+```
+
+## Development
+
+### Workflow
+
+This project uses a feature branch workflow:
+
+1. Create a branch from `main`:
+   - `feature/<description>` for new functionality
+   - `fix/<description>` for bug fixes
+   - `docs/<description>` for documentation-only changes
+
+2. Make changes, committing frequently with descriptive messages
+
+3. Before merging, rebase onto `main` for a clean history
+
+4. Merge to `main`
+
+### Running Tests
+
+```bash
+./scripts/test
+```
+
+### Building
+
+```bash
+./scripts/build
+```
+
+## Documentation
+
+- **[Architecture](docs/designs/architecture.md)** - System architecture overview
+- **[Dependencies](docs/designs/dependencies.md)** - Approved dependencies
+- **[RFCs](docs/rfcs/)** - Design proposals and their status
+- **[ADRs](docs/adrs/)** - Architecture decision records
+
+## For AI Agents
+
+See `AGENTS.md` for guidelines on how AI agents should work within this repository.
+
+Agent-specific instructions:
+- [Claude](CLAUDE.md)
+- [Gemini](GEMINI.md)
+- [Codex](CODEX.md)
+
+## Repository Structure
+
+```
+├── AGENTS.md              # General AI agent guidelines
+├── CLAUDE.md              # Claude-specific instructions
+├── GEMINI.md              # Gemini-specific instructions
+├── CODEX.md               # Codex-specific instructions
+├── README.md              # This file
+├── docs/
+│   ├── rfcs/              # Design proposals
+│   │   ├── README.md      # RFC process documentation
+│   │   └── _template.md   # RFC template
+│   ├── designs/           # Living architecture documentation
+│   │   ├── README.md      # Design docs conventions
+│   │   ├── architecture.md
+│   │   └── dependencies.md
+│   └── adrs/              # Architecture Decision Records
+│       ├── README.md      # ADR process documentation
+│       └── _template.md   # ADR template
+└── scripts/               # Development scripts
+    └── README.md          # Script conventions
+```
+
+## License
+
+<!-- Specify your license here -->
