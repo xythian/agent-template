@@ -50,7 +50,7 @@ For smaller changes that don't require an RFC, ensure the change is still docume
 
 ### Before Committing
 
-1. Run available tests (check `scripts/` for test commands)
+1. Run available tests (`./scripts/project test`)
 2. Verify the change works as expected
 3. Update relevant documentation in `docs/designs/`
 

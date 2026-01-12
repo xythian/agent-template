@@ -13,36 +13,30 @@ Use lowercase names without extensions for maximum portability:
 
 If a script is language-specific, use appropriate extension (`setup.py`, `build.js`).
 
-### Standard Scripts
+### Project Script
 
-Projects should provide these scripts when applicable:
+Projects should provide a `./scripts/project` script as a single entry point for all development tasks. This script should support the following subcommands (when applicable):
 
-| Script | Purpose |
-|--------|---------|
+| Subcommand | Purpose |
+|------------|---------|
 | `setup` | Set up local development environment |
 | `build` | Build the project |
 | `test` | Run the test suite |
 | `lint` | Run linters and formatters |
 | `clean` | Remove build artifacts |
-
-### Project Development Script
-
-If applicable, projects should provide a `./scripts/project` script that manages the local development environment. This script should support the following subcommands:
-
-| Subcommand | Purpose |
-|------------|---------|
-| `build` | Build the project for local development |
 | `start` | Start local development services (databases, queues, etc.) |
 | `stop` | Stop local development services |
 
 Example usage:
 ```bash
-./scripts/project build
-./scripts/project start
-./scripts/project stop
+./scripts/project setup   # One-time setup
+./scripts/project build   # Build the project
+./scripts/project test    # Run tests
+./scripts/project start   # Start local services
+./scripts/project stop    # Stop local services
 ```
 
-This pattern provides a single entry point for local development lifecycle management, making it easy for both humans and agents to work with the project.
+This pattern provides a single, consistent entry point for both humans and agents.
 
 ### Script Requirements
 

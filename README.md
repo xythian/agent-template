@@ -27,7 +27,7 @@ git clone <repository-url>
 cd <project-name>
 
 # Run setup script if available
-./scripts/setup
+./scripts/project setup
 ```
 
 ## Development
@@ -47,22 +47,12 @@ This project uses a feature branch workflow:
 
 4. Merge to `main`
 
-### Common Scripts
+### Project Script
 
 ```bash
-./scripts/setup    # Set up local development environment
-./scripts/build    # Build the project
-./scripts/test     # Run the test suite
-./scripts/lint     # Run linters and formatters
-./scripts/clean    # Remove build artifacts
-```
-
-### Project Development Script
-
-If the project has local services (databases, queues, etc.), use the project script:
-
-```bash
-./scripts/project build   # Build for local development
+./scripts/project setup   # Set up local development environment
+./scripts/project build   # Build the project
+./scripts/project test    # Run the test suite
 ./scripts/project start   # Start local development services
 ./scripts/project stop    # Stop local development services
 ```
