@@ -47,16 +47,24 @@ This project uses a feature branch workflow:
 
 4. Merge to `main`
 
-### Running Tests
+### Common Scripts
 
 ```bash
-./scripts/test
+./scripts/setup    # Set up local development environment
+./scripts/build    # Build the project
+./scripts/test     # Run the test suite
+./scripts/lint     # Run linters and formatters
+./scripts/clean    # Remove build artifacts
 ```
 
-### Building
+### Project Development Script
+
+If the project has local services (databases, queues, etc.), use the project script:
 
 ```bash
-./scripts/build
+./scripts/project build   # Build for local development
+./scripts/project start   # Start local development services
+./scripts/project stop    # Stop local development services
 ```
 
 ## Documentation

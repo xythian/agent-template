@@ -27,7 +27,7 @@ Projects should provide these scripts when applicable:
 
 ### Project Development Script
 
-If applicable, projects should provide a `./scripts/{project-name}` script that manages the local development environment. This script should support the following subcommands:
+If applicable, projects should provide a `./scripts/project` script that manages the local development environment. This script should support the following subcommands:
 
 | Subcommand | Purpose |
 |------------|---------|
@@ -37,9 +37,9 @@ If applicable, projects should provide a `./scripts/{project-name}` script that 
 
 Example usage:
 ```bash
-./scripts/myproject build
-./scripts/myproject start
-./scripts/myproject stop
+./scripts/project build
+./scripts/project start
+./scripts/project stop
 ```
 
 This pattern provides a single entry point for local development lifecycle management, making it easy for both humans and agents to work with the project.
