@@ -25,9 +25,9 @@ Describe how data flows through the system.
 
 ## Key Design Decisions
 
-Reference relevant ADRs for significant architectural decisions:
+Reference relevant RFCs for significant architectural decisions:
 
-- [ADR-001: Example Decision](../adrs/001-example.md)
+- [RFC-001: Example Decision](../rfcs/001-example.md)
 
 ## Diagrams
 

@@ -44,7 +44,6 @@ Most work begins with an RFC (Request for Comments):
 2. Iterate on the design with stakeholders
 3. Once approved, the RFC status changes to `accepted`
 4. Implement the accepted design
-5. Record key decisions in `docs/adrs/`
 
 For smaller changes that don't require an RFC, ensure the change is still documented appropriately.
 
@@ -90,7 +89,7 @@ If a dependency is already listed in `docs/designs/dependencies.md`, it is pre-a
 │   ├── designs/           # Living documentation of current architecture
 │   │   ├── architecture.md
 │   │   └── dependencies.md
-│   └── adrs/              # Architecture Decision Records
+│   └── framing/            # Product framing documents
 └── scripts/               # Development and build scripts
 ```
 
@@ -116,11 +115,11 @@ Standard documents:
 - `architecture.md` - System architecture overview
 - `dependencies.md` - Approved dependencies and rationale
 
-### ADRs (`docs/adrs/`)
+### Framing Documents (`docs/framing/`)
 
-Architecture Decision Records capture significant technical decisions. When an RFC is accepted, key decisions should be recorded as ADRs.
+Framing documents capture product-level design, requirements, and the pitch for a project or feature before launch. They describe *what* we're building and *why* at the product or application level, complementing the technical focus of RFCs and design docs.
 
-See `docs/adrs/README.md` for the ADR format.
+See `docs/framing/README.md` for the framing document process and template.
 
 ### Scripts (`scripts/`)
 

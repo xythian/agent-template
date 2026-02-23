@@ -1,6 +1,6 @@
 # Design Documents
 
-This folder contains living documentation of the current architecture and implementation. Unlike RFCs (which capture proposals) or ADRs (which capture decisions), design documents describe **how the system currently works**.
+This folder contains living documentation of the current architecture and implementation. Unlike RFCs (which capture proposals) or framing documents (which capture product-level design and requirements), design documents describe **how the system currently works**.
 
 ## Keeping Documents Current
 

@@ -62,7 +62,7 @@ This project uses a feature branch workflow:
 - **[Architecture](docs/designs/architecture.md)** - System architecture overview
 - **[Dependencies](docs/designs/dependencies.md)** - Approved dependencies
 - **[RFCs](docs/rfcs/)** - Design proposals and their status
-- **[ADRs](docs/adrs/)** - Architecture decision records
+- **[Framing](docs/framing/)** - Product framing, requirements, and pitch
 
 ## For AI Agents
 
@@ -89,9 +89,9 @@ Agent-specific instructions:
 │   │   ├── README.md      # Design docs conventions
 │   │   ├── architecture.md
 │   │   └── dependencies.md
-│   └── adrs/              # Architecture Decision Records
-│       ├── README.md      # ADR process documentation
-│       └── _template.md   # ADR template
+│   └── framing/            # Product framing documents
+│       ├── README.md      # Framing process documentation
+│       └── _template.md   # Framing document template
 └── scripts/               # Development scripts
     └── README.md          # Script conventions
 ```

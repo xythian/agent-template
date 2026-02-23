@@ -57,7 +57,6 @@ Examples:
 ## After Acceptance
 
 When an RFC is accepted:
-1. Key decisions should be recorded as ADRs in `adrs/`
-2. Implementation should follow the accepted design
-3. Update `docs/designs/` as implementation progresses
-4. If the design changes significantly during implementation, update the RFC or create a new one
+1. Implementation should follow the accepted design
+2. Update `docs/designs/` as implementation progresses
+3. If the design changes significantly during implementation, update the RFC or create a new one
